@@ -6,7 +6,7 @@
 /*   By: lana <LanaLebedeva2020@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/14 21:07:38 by lana              #+#    #+#             */
-/*   Updated: 2020/10/23 19:21:05 by lana             ###   ########.fr       */
+/*   Updated: 2020/10/24 20:52:32 by lana             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <stddef.h>
 #include <stdlib.h>
+#include <limits.h>
 
 int     ft_isalpha(int c);
 int	    ft_isdigit(int c);
@@ -41,4 +42,6 @@ char    *ft_strstr(const char *s1, const char *s2);
 char    *ft_strnstr(const char *s1, const char *s2, size_t n);
 int		ft_strcmp (const char *str1, const char *str2);
 int		strncmp(const char *str1, const char *str2, size_t n);
+int		ft_atoi(const char *nptr);
+
 #endif

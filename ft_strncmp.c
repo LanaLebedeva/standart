@@ -6,11 +6,11 @@
 /*   By: lana <LanaLebedeva2020@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/24 15:06:01 by lana              #+#    #+#             */
-/*   Updated: 2020/10/24 15:44:06 by lana             ###   ########.fr       */
+/*   Updated: 2020/10/24 20:53:52 by lana             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "linft.h"
+#include "libft.h"
 
 int		ft_strncmp(const char *str1, const char *str2, size_t n)
 {
