@@ -18,7 +18,21 @@ FUNCTIONS 	:= ft_isalpha.c\
             ft_memcpy.c\
             ft_memccpy.c\
             ft_memmove.c\
-            ft_memchr.c
+            ft_memcmp.c\
+            ft_memchr.c\
+            ft_strlen.c\
+			ft_strdup.c\
+			ft_strcpy.c\
+			ft_strncpy.c\
+			ft_strcat.c\
+			ft_strncat.c\
+			ft_strlcat.c\
+			ft_strchr.c\
+			ft_strrchr.c\
+			ft_strstr.c\
+			ft_strnstr.c\
+			ft_strcmp.c\
+			ft_strncmp.c
 
 
 SOURCE		:= $(addprefix $(DIR), $(FUNCTIONS))
@@ -45,8 +59,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
-    
-debug:
-	gcc -g -O0 $(FLAG) -c *.c -I $(HEADER_DIR) -MD
 
 .PHONY: all clean fclean re debug
